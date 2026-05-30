@@ -21,14 +21,14 @@ namespace WpfApp9
 
         int totalEnemys;
 
-        int enemySpeed = 6;
+        int enemySpeed = 7;
 
         int fireTimer;
 
         int fireTimerLim = 90;
 
         DispatcherTimer dispatcherTimer = new DispatcherTimer();
-
+        //Оставлю какой-то комментарий
         ImageBrush playerImage = new ImageBrush();
         List<Rectangle> removeItems = new List<Rectangle>();
         public MainWindow()
